@@ -1,0 +1,81 @@
+/* 
+* Estilos personalizados para el layout
+ */
+
+ body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+  position: relative;
+}
+.page-footer {
+  padding-top: 0 !important;
+}
+footer.page-footer, nav .nav-wrapper {
+  background: #254559 !important;
+}
+.brand-logo {
+  margin-left: 15px;
+  font-size: 24px !important;
+}
+.brand-logo, nav ul li a, .footer-copyright .container a, .footer-copyright .container {
+  color: #99F280 !important;
+}
+
+.Pagina{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  bottom: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.Lateral-izquierdo {
+  width: 300px;
+  border-right: 1px solid #dbdbdb;
+}
+.Lateral-derecho {
+  flex: 1 1 auto;
+  overflow: auto;
+} 
+
+.Autor {
+  padding: 32px;
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+}
+.Autor img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.Autor h3 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+.Redes{
+  display:flex;
+  width: 60%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.Redes a i{
+  font-size: 28px;
+  color:#F21B54;
+}
+
+ul.sidenav li a, ul.sidenav li a i {
+  color: #F21B54!important; 
+}
+ul.sidenav li:hover{
+  background: rgba(242, 27, 84, 0.1);
+}
